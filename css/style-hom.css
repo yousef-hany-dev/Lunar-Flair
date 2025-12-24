@@ -327,7 +327,7 @@ header .text a:hover {
 }
 
 .section1 {
-    background-image: url(/imgs/a1.png);
+    background-image: url(/imgs/a1-compressed_Webpifier.webp);
     background-size: cover;
     max-height: auto-fit;
     min-height: 90dvh;
@@ -585,7 +585,7 @@ header .text a:hover {
 .section5 .cn {
     height: 80dvh;
     margin-top: 50px;
-    background-image: url(/imgs/h2.png);
+    background-image: url(/imgs/h2-compressed_Webpifier.webp);
     background-size: cover;
 }
 
@@ -663,12 +663,14 @@ header .text a:hover {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 5%;
 }
-.section6 .cn .crt{
-    box-shadow:  0 0 10px 1px rgba(152, 152, 152, 0.235);
+
+.section6 .cn .crt {
+    box-shadow: 0 0 10px 1px rgba(152, 152, 152, 0.235);
     height: fit-content;
     position: relative;
     padding: 10px;
 }
+
 .section6 .cn figure {
     height: 50%;
 
@@ -708,7 +710,7 @@ header .text a:hover {
     color: var(--color-bac2);
     font-size: .7rem;
     font-weight: bold;
-    
+
 
 }
 
@@ -875,9 +877,10 @@ footer .hr {
 
     footer .cn .type {
         grid-column: 1/5;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    footer .cn .type form{
+
+    footer .cn .type form {
         grid-column: 2/4;
     }
 

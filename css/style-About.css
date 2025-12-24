@@ -227,7 +227,7 @@ nav .cn ul:nth-child(2) li:nth-child(3) a {
 }
 
 .section1 {
-    background-image: url(/imgs/ap1.png);
+    background-image: url(/imgs/ap1-compressed_Webpifier.webp);
     background-size: cover;
     height: 90vh;
 }
@@ -316,8 +316,9 @@ nav .cn ul:nth-child(2) li:nth-child(3) a {
 
 
 }
-@media(max-width:767px){
-    .section3{
+
+@media(max-width:767px) {
+    .section3 {
         height: 50vh;
     }
 }
@@ -338,8 +339,9 @@ nav .cn ul:nth-child(2) li:nth-child(3) a {
     padding-bottom: 55px;
     padding-top: 55px;
 }
-@media(max-width:767px){
-    .section4 h2{
+
+@media(max-width:767px) {
+    .section4 h2 {
         font-size: 1.7rem;
     }
 }
@@ -602,9 +604,10 @@ footer .hr {
 
     footer .cn .type {
         grid-column: 1/5;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    footer .cn .type form{
+
+    footer .cn .type form {
         grid-column: 2/4;
     }
 
