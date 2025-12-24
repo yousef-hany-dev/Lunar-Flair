@@ -227,7 +227,7 @@ nav .cn ul:nth-child(2) li:nth-child(3) a {
 }
 
 .section1 {
-    background-image: url(/imgs/ap1-compressed_Webpifier.webp);
+    background-image: url(../imgs/ap1-compressed_Webpifier.webp);
     background-size: cover;
     height: 90vh;
 }
