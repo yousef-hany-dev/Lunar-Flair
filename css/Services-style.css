@@ -218,7 +218,6 @@ nav .cn ul:nth-child(2) li:nth-child(4) a {
         grid-column: 4;
     }
 }
-
 .ls ul li a:hover,
 #Ser {
     color: var(--color-text2);
@@ -287,14 +286,12 @@ nav .cn ul:nth-child(2) li:nth-child(4) a {
 
     }
 }
-
-@media(max-width:767px) {
-    .section1 {
+@media(max-width:767px){
+    .section1{
         margin-top: 50px;
         height: 50vh;
     }
 }
-
 .section2 .cn {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -355,11 +352,9 @@ nav .cn ul:nth-child(2) li:nth-child(4) a {
     .text1:nth-child(9) {
         grid-row: 10;
     }
-
-    .section2 .text1 {
+    .section2 .text1{
         padding-left: 0;
     }
-
     .section2 .text1 h2 {
         font-size: 2.2rem;
     }
@@ -521,10 +516,9 @@ footer .hr {
 
     footer .cn .type {
         grid-column: 1/5;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3,1fr);
     }
-
-    footer .cn .type form {
+    footer .cn .type form{
         grid-column: 2/4;
     }
 
